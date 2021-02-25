@@ -13,7 +13,8 @@
 
         div.cover {
             background: url(public/img/cover_overlay.png) no-repeat center/100% 100%,url(public/img/cover.jpg) no-repeat center/cover;
-            height: 360px;   
+            height: 360px;
+            position: relative; 
         }
 
         img.cover_profile {
@@ -23,7 +24,7 @@
             margin-left: -50px;
             margin-top: 50px;
             border-radius: 100%;
-            border: solid black;
+            border: 1px solid black;
         }
 
         h1 {
@@ -35,6 +36,23 @@
             color: lightgrey;
             text-align: center;
         } 
+
+        div.cover_contact {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            border-left: 4px solid rgb(29, 29, 207);
+            padding-left: 8px;
+        }
+
+        div.cover_contact p {
+            text-align: left;
+        }
+
+        div.cover_contact a {
+            color: whitesmoke;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
@@ -42,6 +60,12 @@
         <img class="cover_profile" src="public/img/me.png" alt="">
         <h1>Adib Patrice Legastelois</h1>
         <p>Développeur Junior</p>
+
+       <div class="cover_contact">
+            <p><a href="mailto:adib.legastelois@icloud.com">adib.legastelois@icloud.com</a></p>
+            <p><a href="tel:+33">+33 6</a></p>
+
+       </div> 
     </div>
 </body>
 </html>
