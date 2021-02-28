@@ -131,6 +131,7 @@ div.section3 {
     width: 40%;
 }
 
+
 .col60 {
     width: 60%;
     padding-left: 15px;
@@ -151,4 +152,65 @@ div.line p {
 
 .float-right{
     float: right;
+}
+
+.table{
+    display: inline-block;
+}
+
+.table img {
+    width: 100%;
+}
+
+div.vertical {
+    height: 50px;
+    width: 4px;
+    background-color: #42e;
+    margin-right: 8px;
+}
+
+.table2{
+    float: right;
+}
+
+.table2 img {
+    width: 100%;
+}
+
+div.vertical2 {
+    height: 50px;
+    width: 4px;
+    background-color: #42e;
+    margin-right: 8px;
+}
+
+.col-portfolio {
+    width: 47%;
+}
+
+div.frame {
+    margin: 30px 50px;
+    padding: 20px 30px;
+    background-color: white;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.frame_title {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.frame_table {
+    width: 100%;
+}
+
+.frame_table img {
+    width: 100%;
+    align-items: center;
+}
+
+.frame_table img{
+    width: 100px;
 }
